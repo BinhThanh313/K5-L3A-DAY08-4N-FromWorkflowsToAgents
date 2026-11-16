@@ -14,7 +14,7 @@
 |   1 | Dương Thanh Bình | 2A202603531 | 26ai.binhdt2@vinuni.edu.vn | BinhThanh313 | Nhóm trưởng: Shape A (`workflow`) + integration |
 |   2 | Hoàng Lam Minh | 2A202603566 | 26ai.minhhl2@vinuni.edu.vn | laminh-h | Shape B (`single`: ReAct agent) |
 |   3 | Nguyễn Thị Hồng Hạnh | 2A202603537 | 26ai.hanhnth2@vinuni.edu.vn | hanhshi96 | Shape C (`orchestrator` + handoff/trace) |
-|   4 | Nguyễn Đức Minh | 2A202603563 | ducminh192004@gmail.com | ducminh.n.work@gmail.com | Durability/crash + benchmark & báo cáo |
+|   4 | Nguyễn Đức Minh | 2A202603563 | 26ai.minhnd3@vinuni.edu.vn | ducminh.n.work@gmail.com | Durability/crash + benchmark & báo cáo |
 
 ## Bảng đóng góp
 
