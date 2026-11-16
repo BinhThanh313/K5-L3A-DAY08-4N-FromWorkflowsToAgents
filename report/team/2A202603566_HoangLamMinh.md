@@ -4,7 +4,7 @@
 
 - Họ tên: Hoàng Lam Minh
 - MSSV: 2A202603566
-- Email: hlamminh158@gmail.com
+- Email: 26ai.minhhl2@vinuni.edu.vn
 - GitHub: laminh-h
 
 ## 2. Phần việc phụ trách
