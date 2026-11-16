@@ -91,7 +91,7 @@ Mọi nhánh return đi qua `finish()`, nên luôn có trace đúng contract v1.
 
 ## 4. Kết quả
 
-### 4.1 Bảng so sánh 4 shape trên bộ public (`src/reports/benchmark.json`)
+### 4.1 Bảng so sánh 4 shape trên bộ public (`src/reports/benchmark.json`) — phụ trách: Nguyễn Đức Minh
 
 14 claim public (`C-001`..`C-014`) × 5 seed (`11,22,33,44,55`) = 70 trial mỗi shape:
 
@@ -102,8 +102,12 @@ Mọi nhánh return đi qua `finish()`, nên luôn có trace đúng contract v1.
 | `orchestrator` | 1.000 | 1.000 | 1.000–1.000 | 0.000000 | 47.28 | 5.36 / 6.0 |
 | `swarm` (đối chứng) | 0.986 | 0.929 | 0.929–1.000 | 0.000816 | 49.57 | 2.80 / 3.0 |
 
-- **Crash safety (`src/reports/crash.json`):** `20/20` kịch bản crash (`before_effect`, `after_effect_before_checkpoint`, `after_checkpoint`) đều pass, không tạo hơn một refund.
-- **Kiểm thử tự động:** `python -m pytest -q` → `75 passed`; `python -m pytest -q -m student -o addopts=` → `248 passed`; `python -m lab8.check_submission` → `0 FAIL`.
+### 4.2 Kiểm thử Durability, Crash & Idempotency — phụ trách: Nguyễn Đức Minh
+
+- **Idempotency & Crash/Resume (`src/tests/test_tv4_crash_resume.py`):** Kiểm thử tiêm crash tại cả 3 điểm (`before_effect`, `after_effect_before_checkpoint`, `after_checkpoint`) rồi chạy lại cùng `claim_id` với khóa `refund:{claim_id}`. Kết quả đều chỉ tạo đúng **1 dòng ledger**, **1 audit `refund_committed`**, đúng số tiền `35.000` VND (`3 passed`).
+- **Crash suite (`src/reports/crash.json`):** `20/20` kịch bản crash đều pass (`crash_safety = 20/20`), không tạo hơn một refund.
+- **Kiểm thử tự động toàn repo:** `python -m pytest -q` → `75 passed`; `python -m pytest -q -m student -o addopts=` → `248 passed`; `python -m lab8.check_submission` → `0 FAIL`.
+- **Đánh giá & Ablation:** Chuẩn bị khung và tổng hợp kết quả lựa chọn kiến trúc (`workflow`, R4) vào `report/team/decision_adr.md` và `report/team/research_card.md`.
 
 ### 4.B Phân tích hành vi Shape B (`single`)
 
