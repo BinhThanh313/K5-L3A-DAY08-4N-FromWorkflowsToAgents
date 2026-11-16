@@ -4,9 +4,9 @@ Số liệu trong báo cáo được trích từ `src/reports/benchmark.json` v�
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm: Nhóm Lab 8 (L3A)
+- Tên nhóm: 4N
 - Thành viên: xem `TEAM.md` (Dương Thanh Bình, Hoàng Lam Minh, Nguyễn Thị Hồng Hạnh, Nguyễn Đức Minh)
-- Commit chốt (trùng `report/team/decision_adr.md`): `398a60c` *(cập nhật hash cuối sau khi commit báo cáo lên `main`)*
+- Commit chốt (trùng `report/team/decision_adr.md`): `d5803cd`
 
 ## 2. Mục tiêu và cách tiếp cận
 

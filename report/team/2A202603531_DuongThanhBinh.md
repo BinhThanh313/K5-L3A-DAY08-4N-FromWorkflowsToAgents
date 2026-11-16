@@ -37,7 +37,7 @@ Ví dụ: 20241234_NguyenVanAn.md.
 
 ## 4. Bằng chứng
 
-- **Repo & nhánh:** `https://github.com/BinhThanh313/K5-Day8-From-Workflows-to-Agents` (commit `6172aa4`, hợp nhất tại `398a60c`)
+- **Repo & nhánh:** `https://github.com/BinhThanh313/K5-L3A-DAY08-4N-FromWorkflowsToAgents` (commit `6172aa4`, hợp nhất tại `398a60c`)
 - **Kết quả chạy test hợp nhất cả 4 thành viên (trong thư mục `src/`):**
   - `python -m lab8.smoke` → `lab8.smoke pass`
   - `python -m pytest -q tests/test_workflow_extra.py` → `2 passed`
