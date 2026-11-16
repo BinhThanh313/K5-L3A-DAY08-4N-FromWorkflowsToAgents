@@ -22,10 +22,10 @@
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
-| Dương Thanh Bình | Nhóm trưởng: workflow + integration | `6172aa4` | `src/tests/test_workflow_extra.py` |
-| Hoàng Lam Minh | Shape B: single | `5dfe685` | `src/tests/test_single_react.py` |
-| Nguyễn Thị Hồng Hạnh | Shape C: orchestrator + handoff | `437f797` | `src/tests/test_orchestrator_handoff.py` |
-| Nguyễn Đức Minh | Durability + evaluation | `04ba675` | `src/tests/test_tv4_crash_resume.py` |
+| Dương Thanh Bình | Nhóm trưởng: workflow + integration | `6172aa4` | `src/tests/test_workflow_extra.py` (`test_workflow_unknown_claim_returns_failed_with_valid_trace`, `test_workflow_deterministic_and_zero_model_calls`) |
+| Hoàng Lam Minh | Shape B: single | `5dfe685` | `src/tests/test_single_react.py` (`test_single_ignores_overstated_ticket_delay`, `test_single_loop_dispatches_only_read_tools`, `test_single_counts_model_calls_and_respects_step_cap`, `test_single_step_cap_fails_closed_without_refund`, `test_single_trace_has_no_secret_pii_or_ticket`) |
+| Nguyễn Thị Hồng Hạnh | Shape C: orchestrator + handoff | `437f797` | `src/tests/test_orchestrator_handoff.py` (`test_orchestrator_handoff_is_allowlisted_and_readonly`, `test_orchestrator_trace_has_no_secret_or_pii`) |
+| Nguyễn Đức Minh | Durability + evaluation | `04ba675` | `src/tests/test_tv4_crash_resume.py` (`test_crash_then_resume_gives_one_refund`) |
 
 ## Báo cáo cá nhân
 
