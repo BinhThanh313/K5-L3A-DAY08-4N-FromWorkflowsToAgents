@@ -5,7 +5,7 @@
 - Họ tên: Nguyễn Thị Hồng Hạnh
 - MSSV: 2A202603537
 - Email: 26ai.hanhnth2@vinuni.edu.vn
-- GitHub: 
+- GitHub: hanhshi96
 ...
 
 ## 2. Phần việc phụ trách
