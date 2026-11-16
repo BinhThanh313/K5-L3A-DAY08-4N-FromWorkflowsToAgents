@@ -8,7 +8,7 @@ Ví dụ: 20241234_NguyenVanAn.md.
 
 - Họ tên: Dương Thanh Bình
 - MSSV: 2A202603531
-- Email: binhdt1303@gmail.com
+- Email: 26ai.binhdt2@vinuni.edu.vn
 - GitHub: BinhThanh313
 
 ## 2. Phần việc phụ trách
