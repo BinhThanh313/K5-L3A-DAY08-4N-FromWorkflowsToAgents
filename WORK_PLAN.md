@@ -18,7 +18,7 @@
 
 ## 2. Phân công chi tiết cho 4 thành viên
 
-### Thành viên 1 — Nhóm trưởng: Shape A (`workflow`) + Integration & Nộp bài
+### Bình — Nhóm trưởng: Shape A (`workflow`) + Integration & Nộp bài
 - **File code phụ trách:**
   - `src/lab8/shapes/workflow.py` (`TODO CP2`, `TODO CP3`).
   - Quản lý repo nhóm (`K5-L3A-DAY08-TenNhom-FromWorkflowsToAgents`), merge PR từ các thành viên, giữ CI và cổng host (`python -m pytest -q`) luôn xanh.
@@ -37,7 +37,7 @@
 
 ---
 
-### Thành viên 2 — Shape B (`single`: ReAct Agent)
+### Lam Minh — Shape B (`single`: ReAct Agent)
 - **File code phụ trách:**
   - `src/lab8/shapes/single.py` (`TODO CP2`, `TODO CP3`).
 - **Nhiệm vụ kỹ thuật:**
@@ -55,7 +55,7 @@
 
 ---
 
-### Thành viên 3 — Shape C (`orchestrator`) + Bảo mật Handoff & Trace
+### Hạnh — Shape C (`orchestrator`) + Bảo mật Handoff & Trace
 - **File code phụ trách:**
   - `src/lab8/shapes/orchestrator.py` (`TODO CP2`, `TODO CP3`).
 - **Nhiệm vụ kỹ thuật:**
@@ -72,7 +72,7 @@
 
 ---
 
-### Thành viên 4 — Durability/Crash + Benchmark & Báo cáo quyết định (ADR / Research Card)
+### Nguyễn Đức Minh — Durability/Crash + Benchmark & Báo cáo quyết định (ADR / Research Card)
 - **Code & Kiểm thử hệ thống phụ trách:**
   - Phối hợp kiểm tra idempotency (T11), crash/resume (T12), per-order cap (T13–T14) và cổng host (`python -m pytest -q`) trên cả 3 shape.
   - Chạy crash suite tạo `src/reports/crash.json`:
