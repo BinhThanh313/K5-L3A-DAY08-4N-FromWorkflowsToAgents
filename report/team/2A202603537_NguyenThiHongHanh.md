@@ -5,7 +5,7 @@
 - Họ tên: Nguyễn Thị Hồng Hạnh
 - MSSV: 2A202603537
 - Email: 26ai.hanhnth2@vinuni.edu.vn
-- GitHub: 
+- GitHub: hanhshi96
 ...
 
 ## 2. Phần việc phụ trách
@@ -37,7 +37,7 @@ Không bắt `InjectedCrash`: chỉ ghi trace rồi ném tiếp, để T12 thấ
 #### Test thêm: 
 `**src/tests/test_orchestrator_handoff.py**`
 
--`test_orchestrator_handoff_is_allowlisted_and_readonly`: kiểm tra handoff ghi trong trace chỉ có field thuộc `ALLOWED_FIELDS` và không có tool ghi `(issue_refund, append_audit)`.
+- `test_orchestrator_handoff_is_allowlisted_and_readonly`: kiểm tra handoff ghi trong trace chỉ có field thuộc `ALLOWED_FIELDS` và không có tool ghi `(issue_refund, append_audit)`.
 - `test_orchestrator_trace_has_no_secret_or_pii`: chạy toàn bộ claim public, rồi kiểm tra không có chuỗi nào trong `forbid_substrings` xuất hiện trong trace. Danh sách này gồm `CANARY_SECRET_*`, header Bearer, SĐT, địa chỉ, tên hàng và ghi chú nội bộ.
 
 #### Quyết định kỹ thuật:
@@ -64,7 +64,7 @@ $ python -m pytest -q
 ...
 ## 5. Công cụ AI đã dùng
 
-- **Claude (Anthropic):** dùng để đọc hiểu đề, giải thích `handoff.py`, `runtime.py` và `durability.py`, gợi ý bản cài đặt `orchestrator.py` cùng test ranh giới handoff, và soạn nháp báo cáo này.
+- **Claude (Anthropic):** dùng để đọc hiểu đề, giải thích `handoff.py`, `runtime.py` và `durability.py`, gợi ý bản cài đặt `orchestrator.py` cùng test ranh giới handoff.
 - **Cách tự kiểm tra:**
   - Chạy lại toàn bộ test student của orchestrator (62/62), test của mình (2/2) và cổng host trên máy cá nhân.
   - Đối chiếu từng bước code với docstring đề bài và `docs/contracts.md`, gồm bảng status/proposal_amount và Trace contract v1.
