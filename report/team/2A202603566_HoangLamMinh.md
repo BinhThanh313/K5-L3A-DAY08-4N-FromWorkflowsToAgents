@@ -4,8 +4,8 @@
 
 - Họ tên: Hoàng Lam Minh
 - MSSV: 2A202603566
-- Email: <!-- TODO: tự điền -->
-- GitHub: <!-- TODO: tự điền -->
+- Email: hlamminh158@gmail.com
+- GitHub: laminh-h
 
 ## 2. Phần việc phụ trách
 
